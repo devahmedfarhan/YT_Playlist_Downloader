@@ -1,6 +1,6 @@
 # 🚀 YDM Pro 3.0 — YouTube Playlist & Video Downloader
 
-YDM Pro 3.0 is a modern, high-speed, dark-mode desktop application built for downloading YouTube Playlists and single videos in **4K, 2K, 1080p, 720p HD, or MP3 Audio**.
+YDM Pro 3.0 is a standalone, modern, high-speed dark-mode Windows desktop application (`YDM_Pro_3.0.exe`) built for downloading YouTube Playlists and single videos in **4K, 2K, 1080p, 720p HD, or MP3 Audio**.
 
 ---
 
@@ -9,14 +9,17 @@ YDM Pro 3.0 is a modern, high-speed, dark-mode desktop application built for dow
 
 ---
 
-## 📦 Direct ZIP Download
-Download the ready-to-run ZIP archive directly:
-👉 **[Download YDM_Pro_3.0_Downloader.zip](https://github.com/devahmedfarhan/YT_Playlist_Downloader/raw/main/YDM_Pro_3.0_Downloader.zip)**
+## ⚡ Direct Executable Download (No Terminal / CMD Required!)
+
+You do **NOT** need to open command prompt or install any Python packages! Simply download the package and double-click **`YDM_Pro_3.0.exe`** to open the GUI directly:
+
+👉 **[Download YDM_Pro_3.0_Downloader.zip (Includes YDM_Pro_3.0.exe)](https://github.com/devahmedfarhan/YT_Playlist_Downloader/raw/main/YDM_Pro_3.0_Downloader.zip)**
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
+- ⚡ **Standalone Windows Executable (`YDM_Pro_3.0.exe`):** Double-click to open UI directly — zero terminal setup required!
 - 🌟 **Dynamic Max Quality (4K / 2K / 1080p / HD):** Automatically fetches the highest resolution available for every single video in a playlist.
 - 🔄 **Automatic Full Playlist Batch Downloading:** Downloads the entire playlist sequentially from start to finish without pausing.
 - 🎬 **Multi-Format Support:**
@@ -31,50 +34,20 @@ Download the ready-to-run ZIP archive directly:
 
 ---
 
-## 🛠️ Installation & Setup (One-time Setup)
+## 🚀 How to Start & Use the App (App Kaise Start Karein)
 
-Make sure you have **Python 3.8+** installed on your Windows machine.
+### Option 1: Double-Click EXE (Recommended for Everyone)
+1. Download & Extract **`YDM_Pro_3.0_Downloader.zip`**.
+2. Double-click **`YDM_Pro_3.0.exe`**.
+3. Paste Playlist URL -> Select Format/Quality -> Click **`Start Batch Download`**!
 
-Open Command Prompt or PowerShell in the project folder and run:
+---
+
+### Option 2: Run from Python Source (For Developers)
+
+If running from Python source:
 
 ```powershell
 pip install yt-dlp imageio-ffmpeg customtkinter
-```
-
----
-
-## 🚀 How to Start & Use the App (App Kaise Start Karein)
-
-### Method 1: Graphical Desktop App (GUI)
-
-Run the following command in Command Prompt / Terminal:
-
-```powershell
 python yListerFull.py
 ```
-
-#### Step-by-Step Usage:
-1. **Paste Playlist URL:** Enter any YouTube playlist link (e.g. `https://www.youtube.com/playlist?list=PLjMdlvowxr_0XqrqKSvbvcKd4562mnonS`).
-2. **Choose Save Folder:** Click **`📂 Browse`** to select where to save downloaded files.
-3. **Choose Format:** Select **`🎬 MP4 Video`** or **`🎵 MP3 Audio`**.
-4. **Choose Quality:** Select **`🌟 Dynamic Max Quality (4K / 2K / 1080p)`** or **`720p HD`**.
-5. **Click `🔍 Parse Playlist`:** Wait a few seconds until the playlist is scanned.
-6. **Click `▶️ Start Batch Download`:** All videos in the playlist will download automatically one by one!
-
----
-
-### Method 2: Command Line (CLI)
-
-To parse and export playlist links via terminal:
-
-```powershell
-python ylister.py "YOUR_YOUTUBE_PLAYLIST_URL"
-```
-
----
-
-## 📋 Requirements
-- Windows 10 / 11
-- Python 3.8+
-- Node.js (Installed for JS runtime decoding)
-- Packages: `yt-dlp`, `imageio-ffmpeg`, `customtkinter`
