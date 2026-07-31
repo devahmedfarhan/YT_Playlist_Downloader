@@ -9,6 +9,12 @@ YDM Pro 3.0 is a modern, high-speed, dark-mode desktop application built for dow
 
 ---
 
+## 📦 Direct ZIP Download
+Download the ready-to-run ZIP archive directly:
+👉 **[Download YDM_Pro_3.0_Downloader.zip](https://github.com/devahmedfarhan/YT_Playlist_Downloader/raw/main/YDM_Pro_3.0_Downloader.zip)**
+
+---
+
 ## ✨ Features
 
 - 🌟 **Dynamic Max Quality (4K / 2K / 1080p / HD):** Automatically fetches the highest resolution available for every single video in a playlist.
